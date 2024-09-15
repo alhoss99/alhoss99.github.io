@@ -150,4 +150,25 @@
   margin: auto 0;
 }
 
+#socials-container {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon-button:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
 
