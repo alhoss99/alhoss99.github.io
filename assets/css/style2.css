@@ -172,3 +172,21 @@
   height: 40px;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center; /* لضبط الزرّين في الوسط أفقياً */
+  gap: 20px; /* المسافة بين الزرّين */
+}
+
+.btn {
+  padding: 7px 7px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-color-1 {
+  background-color: #7dbf8a;
+  color: white;
+}
